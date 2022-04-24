@@ -11,3 +11,9 @@ z= x+y
 print('sum of {0} and {1} is {2}'.format(x,y,z))
 
 
+x, y = input("Enter two numbers ").split(",")
+z= int(x)
+a = int(y)
+print (z+a)
+
+
