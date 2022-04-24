@@ -1,0 +1,9 @@
+p = input("Enter principle amount : ") #formula = principal amount*(1+rate/100)pow(time)
+t = input("time taken to return : ")
+r= input("Rate of amount : ")
+p = int(p)
+t = float(t)
+r= float(r)
+a = p*(1+r/100)**t
+compund = a-p
+print("Conpunt interest for {} is {}".format(p,compund))
