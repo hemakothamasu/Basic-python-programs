@@ -1,0 +1,11 @@
+x= input("Enter any number: ")
+y = int(x)
+n=1
+while y>1:
+    n=n*y
+    y=y-1
+
+
+print("Factorial of {} is {}".format(x,n))
+    
+    
