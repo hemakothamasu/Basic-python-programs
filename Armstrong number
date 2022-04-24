@@ -1,0 +1,14 @@
+x = input("Enter a number: ")
+y= len(x)
+n=0
+z=0
+while n != y:
+    if n<y:
+        a=int(x[n])**y
+        z += a
+        n=n+1
+
+if(str(z) == x):
+    print('{} is amstrong number'.format(x))
+else:
+    print('{} is not a amstrong number'.format(x))
