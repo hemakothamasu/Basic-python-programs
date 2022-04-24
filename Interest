@@ -1,0 +1,8 @@
+p = input("Enter principle amount : ")
+t = input("time taken to return : ")
+r= input("Rate of amount : ")
+p = int(p)
+t = float(t)
+r= float(r)
+interest = p*t*r/100
+print("interest for {} is {}: ".format(p,interest))
